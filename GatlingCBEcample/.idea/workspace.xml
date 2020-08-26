@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c1763aa-fab3-4d8e-892c-fa4713d80b9c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1gcyFvzK5zhc4yNdKHgs5DavP3n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.Recorder">
+    <configuration name="Engine" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Engine" />
+      <module name="GatlingCBEcample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recorder" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Recorder" />
+      <module name="GatlingCBEcample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Recorder" />
+        <item itemvalue="Application.Engine" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c1763aa-fab3-4d8e-892c-fa4713d80b9c" name="Default Changelist" comment="" />
+      <created>1598428074400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598428074400</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="459" y="383" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1598428204572">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="459" y="383" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.1440.877@0.23.1440.877" timestamp="1598428204572" />
+    <state width="1387" height="291" key="GridCell.Tab.0.bottom" timestamp="1598430091148">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1387" height="291" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1598430091148" />
+    <state width="1387" height="291" key="GridCell.Tab.0.center" timestamp="1598430091147">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1387" height="291" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1598430091147" />
+    <state width="1387" height="291" key="GridCell.Tab.0.left" timestamp="1598430091145">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1387" height="291" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1598430091145" />
+    <state width="1387" height="291" key="GridCell.Tab.0.right" timestamp="1598430091147">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1387" height="291" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1598430091147" />
+    <state x="202" y="43" key="SettingsEditor" timestamp="1598433828632">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="202" y="43" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1598433828632" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/test/scala/DemoExampleSimulation.scala</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

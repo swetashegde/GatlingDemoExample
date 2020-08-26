@@ -1,0 +1,27 @@
+{
+  "simulation": "test.scala.DemoExampleSimulation",
+  "simulationId": "demoexamplesimulation",
+  "start": 1598429704384,
+  "description": "",
+  "scenarios": ["Go to homepage"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "percentage of failed events",
+  "condition": "is",
+  "expectedValues": [0.0],
+  "result": true,
+  "message": "Global: percentage of failed events is 0.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Homepage",
+  "target": "max of response time",
+  "condition": "is less than or equal to",
+  "expectedValues": [1000.0],
+  "result": false,
+  "message": "Homepage: max of response time is less than or equal to 1000.0",
+  "actualValue": [3846.0]
+}
+  ]
+}

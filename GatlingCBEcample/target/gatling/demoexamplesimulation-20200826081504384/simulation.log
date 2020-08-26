@@ -1,0 +1,11 @@
+ASSERTION	AAECAAIFAAAAAAAAAAAA
+ASSERTION	AAIDAAEBAQAAAAAAAECPQA==
+RUN	test.scala.DemoExampleSimulation	demoexamplesimulation	1598429704384	 	3.3.1
+USER	Go to homepage	1	START	1598429707284	1598429707284
+USER	Go to homepage	2	START	1598429707289	1598429707289
+REQUEST	2		Homepage	1598429707335	1598429711123	OK	 
+ERROR	Login to app: Failed to build request: No attribute named 'Username' is defined 	1598429711167
+REQUEST	1		Homepage	1598429707328	1598429711174	OK	 
+ERROR	Login to app: Failed to build request: No attribute named 'Username' is defined 	1598429711176
+USER	Go to homepage	1	END	1598429707284	1598429711187
+USER	Go to homepage	2	END	1598429707289	1598429711187

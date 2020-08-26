@@ -1,0 +1,10 @@
+{
+  "simulation": "test.scala.DemoExampleSimulation",
+  "simulationId": "demoexamplesimulation",
+  "start": 1598428702142,
+  "description": "test",
+  "scenarios": ["Go to homepage"],
+  "assertions": [
+
+  ]
+}
