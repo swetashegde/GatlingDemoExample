@@ -28,7 +28,7 @@ class DemoExampleSimulation extends Simulation{
           .body(ElFileBody("bodies/loginRequestBody.json"))
           .check(regex("""Auth_token: (.+?)""").find.saveAs("Authtoken"))
       )
-      .exec{session=>println(session("Authtoken"))
+      .exec{session=>println(session("Authtoken").as[String])
         session}
 
   //Simulation setup
