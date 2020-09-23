@@ -32,7 +32,7 @@ class DemoExampleSimulation extends Simulation{
         session}
 
   //Simulation setup
- setUp(scn.inject(atOnceUsers(1000))).protocols(httpProtocol)
+ setUp(scn.inject(atOnceUsers(10))).protocols(httpProtocol)
    .assertions(
      global.failedRequests.percent.is(0)
    )
