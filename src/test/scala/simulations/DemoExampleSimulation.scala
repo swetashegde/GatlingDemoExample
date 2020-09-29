@@ -1,4 +1,5 @@
-package test.scala
+package scala.simulations
+
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 
@@ -26,9 +27,9 @@ class DemoExampleSimulation extends Simulation{
         http("Login to app")
           .post(login_uri+"/login")
           .body(ElFileBody("bodies/loginRequestBody.json"))
-          .check(regex("""Auth_token: (.+?)""").find.saveAs("Authtoken"))
+          .check(regex("""Auth_token: (.+?)""").find.saveAs("AuthToken"))
       )
-      .exec{session=>println(session("Authtoken").as[String])
+      .exec{session=>println(session("AuthToken").as[String])
         session}
 
   //Simulation setup
