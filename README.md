@@ -35,7 +35,7 @@ To run a simulation:
 Example to run DemoExampleSimulation
 
 
-`gatling:test -Dgatling.simulationClass=test.scala.DemoExampleSimulation`
+`gatling:test -Dgatling.simulationClass=example.demo.DemoExampleSimulation`
 
 or right click on Engine & choose `Run`
 

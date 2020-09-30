@@ -1,4 +1,4 @@
-package scala.simulations
+package example.demo
 
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
@@ -17,8 +17,7 @@ class SimpleHomePageSimulation extends Simulation{
 
   setUp(scn.inject(atOnceUsers(1000))).protocols(httpProtocol)
     .assertions(
-      global.failedRequests.percent.is(0),
-      forAll.responseTime.max.lte(1000))
+      global.failedRequests.percent.is(0))
 }
 
 

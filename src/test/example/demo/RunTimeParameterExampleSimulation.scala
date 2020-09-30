@@ -1,7 +1,7 @@
-package test.scala.simulations
+package test.example.demo
 
-import io.gatling.core.Predef._
 import io.gatling.http.Predef._
+import io.gatling.core.Predef._
 
 class RunTimeParameterExampleSimulation extends Simulation{
   private def getProperty(propertyName:String, defaultValue:String): String ={
@@ -38,4 +38,4 @@ class RunTimeParameterExampleSimulation extends Simulation{
       global.failedRequests.percent.is(0),
       forAll.responseTime.max.lte(1000))
 }
-//Run with
+//Run with mvn gatling:test -Dgatling.simulationClass=example.demo.RunTimeParameterExampleSimulation -DUSERS=10
